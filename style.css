@@ -1,6 +1,39 @@
+.li-nav-container {
+    display:flex;
+    justify-content: end;
+    
+    flex-direction: inline;
+    position: static;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.nav-item {
+    padding: 5px 50px 5px 50px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+    right: 50px;
+    top: 70px;
+}
 .login-form {
     background-color: #fafaf4;
     padding: 30px;
+    width: 240px;
     box-shadow: 1px 1px 10px 5px gray;
     border-radius: 25px;
 }
@@ -51,7 +84,7 @@
 }
 
 
-body {
+div> .form-container {
     display: flex;
     align-items: center;
     justify-content: center;
